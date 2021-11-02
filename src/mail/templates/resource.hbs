@@ -1,0 +1,8 @@
+<p>Hey {{userName}},</p>
+<p>Here are some news about your subscriptions </p>
+{{#each quotes}}
+  <p>Current price of
+    <strong>{{shortName}}</strong>
+    is :
+    <strong>{{regularMarketPrice}}</strong></p>
+{{/each}}
